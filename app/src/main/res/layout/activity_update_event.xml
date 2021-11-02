@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UpdateEventActivity">
+
+    <TextView
+        android:id="@+id/updateTheReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update the reminder"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:layout_width="208dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="34dp"
+        android:id="@id/dateTextViewUpdate"
+        android:layout_marginTop="88dp"
+        android:text="Date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TimePicker
+        android:id="@+id/timePickerUpdate"
+        android:layout_width="247dp"
+        android:layout_height="232dp"
+        android:headerBackground="@android:color/holo_blue_dark"
+        android:numbersSelectorColor="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:timePickerMode="spinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editTaskUpdate"
+        android:layout_width="381dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Reminder name"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePickerUpdate"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/saveButtonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="216dp"
+        android:background="#ADD8E6"
+        android:text="Update the reminder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButtonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="82dp"
+        android:background="#ADD8E6"
+        android:text="Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editTextAdditionalInfo"
+        android:layout_width="381dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="508dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add a description"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

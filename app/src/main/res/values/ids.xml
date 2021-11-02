@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cancelButton" type="id"/>
+    <item name="cancelButtonUpdate" type="id"/>
+    <item name="taskTextViewList" type="id"/>
+    <item name="editTextAdditionalInfo" type="id"/>
+    <item name="addTextInfo" type="id"/>
+    <item name="dateTextViewUpdate" type="id"/>
+    <item name="updateTheReminder" type="id"/>
+    <item name="dateTextAdd" type="id"/>
+
+</resources>
